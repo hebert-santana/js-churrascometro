@@ -29,15 +29,19 @@ function calcular() {
     let Total_Cerveja = cervejahoras(duracao) * adultos
     let Total_Refri = refrihoras(duracao) * adultos + (refrihoras(duracao)/2) * criancas;
 
+
+// PRIMEIRA FRASE //
+    resultado.innerHTML = `<p>Para o seu churrasco, você deve ter:</p>`
+
+
 // criando o RESULTADO "${quantidade}""
-    resultado.innerHTML = `<p>${(Total_Carne) / 1000}Kg de carne.</p>`
+    resultado.innerHTML += `<strong> <p>${(Total_Carne) / 1000}Kg de carne.</p> </strong>`
     
 // += para não substituir o que já está em innerHTML
 // usar função pra pegar o maior inteiro após a divisão
-    resultado.innerHTML += `<p>${Math.ceil(Total_Cerveja / 355)} latas de cerveja.</p>`
-    
-    resultado.innerHTML += `<p>${Math.ceil(Total_Refri / 2000)} garrafas de 2 litros de refrigerante.</p>`
-    resultado.innerHTML += `<p>BOA FESTA!</p>`
+    resultado.innerHTML += `<strong> <p>${Math.ceil(Total_Cerveja / 355)} latas de cerveja.</p> </strong>`    
+    resultado.innerHTML += `<strong> <p>${Math.ceil(Total_Refri / 2000)} garrafas de 2 litros de refrigerante.</p> </strong>`
+    resultado.innerHTML += `<center> <p>BOA FESTA!</p> </center>`
     
 
 
@@ -58,10 +62,10 @@ function carnehoras(duracao) {
 
 function cervejahoras(duracao) {
     if (duracao >= 6){
-        return 2000;
+        return 3000;
     }
     else {
-        return 1200;
+        return 1750;
     }
 }
 
