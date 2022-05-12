@@ -41,7 +41,7 @@ function calcular() {
 // usar função pra pegar o maior inteiro após a divisão
     resultado.innerHTML += `<strong> <p>${Math.ceil(Total_Cerveja / 355)} latas de cerveja.</p> </strong>`    
     resultado.innerHTML += `<strong> <p>${Math.ceil(Total_Refri / 2000)} garrafas de 2 litros de refrigerante.</p> </strong>`
-    resultado.innerHTML += `<center> <p>BOA FESTA!</p> </center>`
+    resultado.innerHTML += `<center> <p>VAI TER CU HOJE?</p> </center>`
     
 
 
