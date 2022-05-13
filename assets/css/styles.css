@@ -1,7 +1,8 @@
 
 body {
-    width: 100%;
-    min-height: 90vh;
+    margin: 0;
+    padding: 0;   
+    height: 500px;
 
     display: flex;
     justify-content: center;
@@ -14,11 +15,10 @@ body {
 /* modificação no container */
 
 .container{
-/* retirar fonte com serifa para sem serifa */
     font-family: Arial, Helvetica, sans-serif;
 /* limitar tamanho do container */
-    max-width: 500px;
-/* centralizar o container */
+    max-width: 400px;
+/* centralizar o container com recursividade*/
     margin: auto;
     background-color: black;
     background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)50%); 
@@ -56,7 +56,7 @@ input{
 
 .botaoEnviar{
     width: 150px;
-    margin: auto; /*centralizar o botão */
+    margin: auto;                   /*centralizar o botão */
     text-align: center;
     font-weight: bold;
     padding: 10px;
@@ -95,8 +95,7 @@ footer a{
 }
 
 #musica{
-    margin-top: 300px;
-    padding-bottom: 100px;
-    
-    position: absolute; /*centralizou vídeo */
+    margin: auto; /*centralizar o botão */
+    display: block;
+    padding: auto;
 }

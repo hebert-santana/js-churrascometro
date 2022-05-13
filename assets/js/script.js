@@ -78,9 +78,6 @@ function refrihoras(duracao) {
     }
 }
 
-
-
 let song = document.getElementById("musica");
-
 song.play()
 
