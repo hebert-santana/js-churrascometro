@@ -24,8 +24,6 @@ function calcular() {
     let duracao = inputDuracao.value;
 // função duracao * número de adultos + função duracao/2 * número de crianças 
     let Total_Carne = carnehoras(duracao) * adultos + (carnehoras(duracao)/2 * criancas);
-    console.log(Total_Carne);
-
     let Total_Cerveja = cervejahoras(duracao) * adultos
     let Total_Refri = refrihoras(duracao) * adultos + (refrihoras(duracao)/2) * criancas;
 
@@ -49,12 +47,12 @@ function calcular() {
 
 // função carne em relação as horas
 
-function carnehoras(duracao) {
+function carnehoras(duracao) {          // consumo médio sempre de 150g/h //
     if (duracao >= 6){
-        return 650;
+        return 150*duracao;
     }
     else {
-        return 400;
+        return 150*duracao;
     }
 }
 
@@ -62,10 +60,10 @@ function carnehoras(duracao) {
 
 function cervejahoras(duracao) {
     if (duracao >= 6){
-        return 3000;
+        return 450*duracao;
     }
     else {
-        return 1750;
+        return 500*duracao;
     }
 }
 
@@ -73,10 +71,10 @@ function cervejahoras(duracao) {
 
 function refrihoras(duracao) {
     if (duracao >= 6){
-        return 1500;
+        return 250*duracao;
     }
     else {
-        return 1000;
+        return 400*duracao;
     }
 }
 
