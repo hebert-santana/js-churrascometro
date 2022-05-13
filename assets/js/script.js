@@ -1,6 +1,6 @@
-// Carne        - 400gr por pessoa      + de 6 horas 650gr
-// Cerveja      - 1200ml por pessoa     + 6 horas 2000ml
-// Refrigerante - 1000ml por pessoa     + 6 horas 1500ml
+// Carne        - 150gr por pessoa por hora     + de 6 horas 150gr por pessoa por hora
+// Cerveja      - 500ml por pessoa por hora     + de 6 horas 450ml por pessoa por hora
+// Refrigerante - 400ml por pessoa por hora     + de 6 horas 250ml por pessoa por hora
 // criança (menor de 10 anos) consome equivalente à 0,5 pessoa
 
 
