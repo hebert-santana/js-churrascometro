@@ -90,12 +90,17 @@ footer a{
     color: #EEAF95;
 }
 
+
+
+
 #resultado{
     color: azure;
+    background-color: #750000;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    animation: 3s;
 }
 
-#musica{
-    margin: auto; /*centralizar o botão */
-    display: block;
-    padding: auto;
-}
+
+
