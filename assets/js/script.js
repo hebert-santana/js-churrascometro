@@ -4,7 +4,9 @@
 // (Média) Adoslescente consome equivalente à 0,8 pessoa que não bebe.
 // (Média) Criança (menor de 12 anos) consome equivalente à 0,5 pessoa que não bebe.
 
-
+var horas = 5;
+var adolescente_equivalente = 0.8;
+var crianca_equivalente = 0.5;
 // criando variável (usando let) que vai receber o input
 let inputAdultos_b = document.getElementById("adultos_bebem");
 let inputAdultos_nb = document.getElementById("adultos_naobebem");
@@ -30,9 +32,9 @@ function calcular() {
     let duracao = inputDuracao.value;
 
 // função duracao * número de adultos + função duracao/2 * número de crianças 
-    let Total_Carne = (carnehoras(duracao) * (parseInt(adultos_b) + (parseInt(adultos_nb))) + (carnehoras(duracao) * 0.8 * adolescente) + (carnehoras(duracao) * 0.5 * criancas));
+    let Total_Carne = (carnehoras(duracao) * (parseInt(adultos_b) + (parseInt(adultos_nb))) + (carnehoras(duracao) * adolescente_equivalente * adolescente) + (carnehoras(duracao) * crianca_equivalente * criancas));
     let Total_Cerveja = cervejahoras(duracao) * adultos_b
-    let Total_Refri = (refrihoras(duracao) * adultos_nb) + (refrihoras(duracao) * 0.8 * adolescente) + (refrihoras(duracao) * 0.5 * criancas);
+    let Total_Refri = (refrihoras(duracao) * adultos_nb) + (refrihoras(duracao) * adolescente_equivalente * adolescente) + (refrihoras(duracao) * crianca_equivalente * criancas);
 
 
 // PRIMEIRA FRASE //
@@ -55,8 +57,8 @@ function calcular() {
 // função carne em relação as horas
 
 function carnehoras(duracao) {          // consumo médio sempre de 150g/h até 5 horas de duração
-    if (duracao >= 5){
-        return 120*(duracao - 5) + 150*5;
+    if (duracao >= horas){
+        return 120*(duracao - horas) + 150*horas;
     }
     else {
         return 150*duracao;
@@ -66,8 +68,8 @@ function carnehoras(duracao) {          // consumo médio sempre de 150g/h até 
 // função cerveja em relação as horas
 
 function cervejahoras(duracao) {
-    if (duracao >= 5){
-        return ((450*(duracao - 5)) + 600*5)  ; // 600*5 das 5 primeiras horas + 450 ml por hora
+    if (duracao >= horas){
+        return ((450*(duracao - horas)) + 600*horas)  ; // 600*5 das 5 primeiras horas + 450 ml por hora
     }
     else {
         return 600*duracao;
@@ -77,8 +79,8 @@ function cervejahoras(duracao) {
 // função refrigerante em relação as horas
 
 function refrihoras(duracao) {
-    if (duracao >= 5){
-        return (( 250*(duracao - 5)) + 400*5);
+    if (duracao >= horas){
+        return (( 250*(duracao - horas)) + 400*horas);
     }
     else {
         return 400*duracao;
