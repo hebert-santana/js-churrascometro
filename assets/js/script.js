@@ -8,7 +8,6 @@
 // criando variável (usando let) que vai receber o input
 let inputAdultos_b = document.getElementById("adultos_bebem");
 let inputAdultos_nb = document.getElementById("adultos_naobebem");
-
 let inputAdolescente = document.getElementById("menorde18");
 let inputCriancas = document.getElementById("criancas");
 
@@ -57,7 +56,7 @@ function calcular() {
 
 function carnehoras(duracao) {          // consumo médio sempre de 150g/h até 5 horas de duração
     if (duracao >= 5){
-        return 120*(duracao - 5) + 160*5;
+        return 120*(duracao - 5) + 150*5;
     }
     else {
         return 150*duracao;
