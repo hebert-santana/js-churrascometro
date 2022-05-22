@@ -30,7 +30,7 @@ function calcular() {
     let duracao = inputDuracao.value;
 
 // função duracao * número de adultos + função duracao/2 * número de crianças 
-    let Total_Carne = (carnehoras(duracao) * (adultos_b + adultos_nb)) + (carnehoras(duracao) * 0.8 * adolescente) + (carnehoras(duracao) * 0.4 * criancas);
+    let Total_Carne = (carnehoras(duracao) * (parseInt(adultos_b) + (parseInt(adultos_nb))) + (carnehoras(duracao) * 0.8 * adolescente) + (carnehoras(duracao) * 0.5 * criancas));
     let Total_Cerveja = cervejahoras(duracao) * adultos_b
     let Total_Refri = (refrihoras(duracao) * adultos_nb) + (refrihoras(duracao) * 0.8 * adolescente) + (refrihoras(duracao) * 0.5 * criancas);
 
