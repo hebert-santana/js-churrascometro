@@ -5,6 +5,5 @@ Tarefa deselvolvida durante curso Full Stack do programadorbr.
 
 https://hebert-santana.github.io/calculadora_para_churrasco/
 
-<hr>
-<h1> Demonstração</h1>
+
 
