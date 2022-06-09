@@ -14,10 +14,9 @@ Projeto desenvolvido durante curso de <strong><em>"Curso de Desenvolvimento WEB 
  <img align="center" alt="demonstração" src="./assets/img/demonstracao.png" />
  </p>
 
+## 🌐 Site
 
-<p align="center">
 <https://hebert-santana.github.io/churrascometro/>
-</p>
 
 ## Autor
 ~~~ javascript
