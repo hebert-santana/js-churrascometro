@@ -1,20 +1,28 @@
-# Calculadora para Churrasco
-Calcular quantidade de carne, cerveja e refrigerante para um churrasco. 🥩🍖🔥
+# Churrascometro (Programador BR)
+## Projeto (finalizado :white_check_mark:)
 
-Tarefa deselvolvida durante curso **Full Stack do ProgramadorBR** e aprimorada por mim.
+Projeto desenvolvido durante curso de <strong><em>"Curso de Desenvolvimento WEB FULL STACK"</em></strong> do curso <strong>Programador BR</strong>.
 
-▶️ [CALCULADORA PARA CHURRASCO](https://hebert-santana.github.io/calculadora-para-churrasco/) ◀️
+## 🛠️ Recursos
 
-***
+* HTML
+* CSS
+* Javascript
 
-<h1> Demonstração</h1>
+## 💻 Demonstração
+ <p align="center">
+ <img align="center" alt="demonstração" src="./assets/img/demonstracao.png" />
+ </p>
 
-  <img align="center" alt="demonstração" src="./assets/img/demonstracao.png" />
 
-***
+<p align="center">
+<https://hebert-santana.github.io/churrascometro/>
+</p>
 
+## Autor
 ~~~ javascript
-by Hebert Santana.
+Hebert Santana
 ~~~
+
 
 
