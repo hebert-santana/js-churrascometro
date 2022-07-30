@@ -18,10 +18,10 @@ Projeto desenvolvido durante curso de <strong><em>"Curso de Desenvolvimento WEB 
 
 <https://hebert-santana.github.io/js-churrascometro/>
 
-## Autor
-~~~ javascript
-Hebert Santana
-~~~
+<hr>
+
+### Autor
+[<img src="https://avatars.githubusercontent.com/u/102166830?v=4" width=80><br><sub>Hebert Santana</sub>](https://github.com/hebert-santana)
 
 
 
